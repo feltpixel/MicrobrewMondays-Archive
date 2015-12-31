@@ -1,0 +1,41 @@
+[
+    {
+        "beer": "Pink Panther Saison",
+        "breweryid": "Twisted Pine Brewing Co",
+        "style": "Saison/Farmhouse Ale",
+        "color": 18,
+        "maltaroma": "bread, grain",
+        "hopsaroma": "earth, spice",
+        "intensity": 60,
+        "balance": 40,
+        "notes": "here are some notes",
+        "rating": 3,
+        "user": "wendyc"
+    },
+    {
+        "beer": "Ned Flanders Style Red",
+        "breweryid": "Sanitas Brewing Co",
+        "style": "Flanders Red Ale",
+        "color": 66,
+        "maltaroma": "grain, nut",
+        "hopsaroma": "resin",
+        "intensity": 88,
+        "balance": 55,
+        "notes": "more notes",
+        "rating": 4,
+        "user": "wendyc"
+    },
+    {
+        "beer": "Sanitas IPA",
+        "breweryid": "Sanitas Brewing Co",
+        "style": "IPA",
+        "color": 12,
+        "maltaroma": "grain, sweet",
+        "hopsaroma": "citrus",
+        "intensity": 90,
+        "balance": 76,
+        "notes": "my notes",
+        "rating": 2,
+        "user": "anonymous"
+    }
+]

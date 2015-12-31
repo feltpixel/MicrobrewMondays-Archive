@@ -1,0 +1,113 @@
+					<section class='beerInfo'>
+
+						<header>
+							<i class='close material-icons'>close</i>
+							<h3>{{ beer.name }}</h3>
+							<div class='meta'>{{ brewery.name }}, {{ brewery.city }}</div>
+							<div class='beerStyle'>{{ beer.style }}</div>
+							<div class='info'>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<a class="btn-floating btn-small avatar btn-flat dark-blue"><i class="material-icons">person</i></a>
+							</div>
+							<a class="btn-floating btn-small waves-effect waves-light hops-green editBeer"><i class="material-icons">mode_edit</i></a>
+						</header>
+
+
+						<div class='paging'><a href="#!"><i class="material-icons">chevron_left</i></a><span class="count">1 of 1</span><a href="#!"><i class="material-icons">chevron_right</i></a></div>  
+
+						 
+
+
+						<div class='card appearance'>
+							<h3>Appearance &amp; Aroma</h3>
+
+							<div class="group">
+
+								<form action="#">
+									<div class="form-label">COLOR</div>
+									<div class='colorSelector'></div>
+								    <p class="range-field">
+								      <input type="range" id="color" min="0" max="100"  value='{{ review.color }}'/>
+								    </p>
+								    <span class="form-label secondary">STRAW</span>
+									<span class="form-label secondary">GOLD</span>
+									<span class="form-label secondary">AMBER</span>
+									<span class="form-label secondary">COPPER</span>
+									<span class="form-label secondary">DARK BROWN</span>
+									<span class="form-label secondary last">BLACK</span>
+								</form>
+							
+							</div>
+							
+							<div class="group">
+								<div class="form-label">MALT AROMA</div>
+								<span class="label label-default">Grain</span>
+								<span class="label label-active">Bread</span>
+								<span class="label label-default">Sweet</span>
+								<span class="label label-default">Toast</span>
+								<span class="label label-default">Nut</span>
+								<span class="label label-default">Caramel</span>
+								<span class="label label-default">Toffee</span>
+								<span class="label label-default">Coffee</span>
+								<span class="label label-default">Chocolate</span>
+							</div>
+							
+							<div class="group">
+							<div class="form-label">HOPS AROMA</div>
+								<span class="label label-default">Earth</span>
+								<span class="label label-default">Floral</span>
+								<span class="label label-active">Herbal</span>
+								<span class="label label-default">Spice</span>
+								<span class="label label-default">Resin</span>
+								<span class="label label-default">Citrus</span>
+							</div>
+
+						</div>
+
+						<div class='card taste'>
+							<h3>Taste</h3>
+							<div class="group">
+								<form action="#">
+									<div class="form-label">INTENSITY</div>
+								    <p class="range-field">
+								      <input type="range" id="intensity" min="0" max="100" value='{{ review.intensity }}'/>
+								    </p>
+									<span class="form-label secondary">FAINT</span>
+									<span class="form-label secondary last">STRONG</span>
+								</form>
+							</div>
+
+							<div class="group">
+								<form action="#">
+									<div class="form-label">BALANCE</div>
+									
+									    <p class="range-field">
+									      <input type="range" id="balance" min="0" max="100" value='{{ review.balance }}'/>
+									    </p>
+									  
+									<span class="form-label secondary">SWEET</span>
+									<span class="form-label secondary last">BITTER</span>
+								</form>
+							</div>
+
+						</div>
+
+						<div class='card notes'>
+							<h3>Notes</h3>
+
+							<div class="row">
+							    <form class="col s12">
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <textarea readonly="readonly" value="I love this beer!!" name="notes" class="notes materialize-textarea">{{review.notes}}</textarea>
+							          <label for="notes"></label>
+							        </div>
+							      </div>
+							    </form>
+							  </div>
+
+						</div>		
+
+					</section>

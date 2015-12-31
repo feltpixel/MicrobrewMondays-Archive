@@ -1,0 +1,12 @@
+    <div class='listView breweries'>
+      
+     {{#each breweries}}
+          <div class='item' data-id={{ _id }}>  
+            <div class='name'>{{ brewery }}</div>
+            <div class='meta'>{{ address }}, {{ city }}</div>
+            <i class="material-icons vote">thumb_up</i>
+            <span class='vote meta'>{{ votes }} votes</span>
+          </div>
+         {{/each}}
+    </div>
+ 

@@ -1,0 +1,299 @@
+[
+    {
+        "brewery": "12Degree Brewing",
+        "address": "820 Main St",
+        "city": "Louisville",
+        "logo": "/images/12degrees.png",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 1
+    },
+    {
+        "brewery": "4 Noses Brewing Co",
+        "address": "8855 W 116th Cir #4",
+        "city": "Broomfield",
+        "logo": "/images/4noses.png",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 2
+    },
+    {
+        "brewery": "Asher Brewing Co",
+        "address": "4699 Nautilus Ct S #104",
+        "city": "Boulder",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Avery Brewing Co",
+        "address": "4910 Nautilus Ct",
+        "city": "Boulder",
+        "lastvisited": "2015-11-09T07:00:00.000Z",
+        "votes": 5
+    },
+    {
+        "brewery": "Black Shirt Brewing Co",
+        "address": "3719 Walnut St",
+        "city": "Denver",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Big Choice Brewing",
+        "address": "7270 W 118th Pl",
+        "city": "Broomfield",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Bootstrap Brewing Co",
+        "address": "6778 N 79th St",
+        "city": "Niwot",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Boulder Beer",
+        "address": "2880 Wilderness Pl",
+        "city": "Boulder",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "BRU handbuilt ales & eats",
+        "address": "5290 Arapahoe Ave",
+        "city": "Boulder",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Crooked Stave",
+        "address": "3350 Brighton Blvd",
+        "city": "Denver",
+        "lastvisited": "2015-11-16T07:00:00.000Z",
+        "votes": 3
+    },
+    {
+        "brewery": "Crystal Springs Brewing Co",
+        "address": "657 S Taylor Ave",
+        "city": "Louisville",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Echo Brewing",
+        "address": "600 Briggs St",
+        "city": "Erie",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "FATE Brewing Company",
+        "address": "1600 38th St",
+        "city": "Boulder",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Finkel & Garf Brewing Co",
+        "address": "5455 Spine Rd",
+        "city": "Boulder",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Front Range Brewing Co",
+        "address": "400 W South Boulder Rd #1650",
+        "city": "Lafayette",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Gravity Brewing",
+        "address": "1150 Pine St",
+        "city": "Louisville",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Great Divide Brewing Co",
+        "address": "2201 Arapahoe St",
+        "city": "Denver",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "J Wells Brewery",
+        "address": "2516 49th St #5",
+        "city": "Boulder",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Jagged Mountain Craft Brewery",
+        "address": "1139 20th St",
+        "city": "Denver",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Left Hand Brewing Co",
+        "address": "1265 Boston Ave",
+        "city": "Longmont",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Liquid Mechanics Brewing Co",
+        "address": "297 US-287",
+        "city": "Lafayette",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Mountain Sun Pub & Brewery",
+        "address": "1535 Pearl St",
+        "city": "Boulder",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Nighthawk Brewery",
+        "address": "2780 Industrial Ln",
+        "city": "Broomfield",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Odd13 Brewing",
+        "address": "301 E Simpson St",
+        "city": "Lafayette",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Oskar Blues Brewery ",
+        "address": "1800 Pike Rd",
+        "city": "Longmont",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Our Mutual Friend Brewing",
+        "address": "2810 Larimer St",
+        "city": "Denver",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Powder Keg Brewing Co",
+        "address": "101 2nd Ave",
+        "city": "Niwot",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Pumphouse Brewery",
+        "address": "540 Main St",
+        "city": "Longmont",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Renegade Brewing Co",
+        "address": "925 W 9th Ave",
+        "city": "Denver",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Sanitas Brewing Co",
+        "address": "3550 Frontier Ave",
+        "city": "Boulder",
+        "logo": "/images/sanitas.png",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Southern Sun",
+        "address": "627 S Broadway St",
+        "city": "Boulder",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Station 26 Brewing Co",
+        "address": "7045 E 38th Ave",
+        "city": "Denver",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Strange Craft Beer Co",
+        "address": "1330 Zuni St",
+        "city": "Denver",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "The Old Mine",
+        "address": "500 Briggs St",
+        "city": "Erie",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "The Post Brewing Co",
+        "address": "105 W Emma St",
+        "city": "Lafayette",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Twisted Pine Brewing Co",
+        "address": "3201 Walnut St",
+        "city": "Boulder",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Upslope Brewing Co",
+        "address": "1501 Lee Hill Dr",
+        "city": "Boulder",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Vindication Brewing Co",
+        "address": "6880 Winchester Cir",
+        "city": "Boulder",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Walnut Brewery",
+        "address": "1123 Walnut St",
+        "city": "Boulder",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "West Flanders Brewing Co",
+        "address": "1125 Pearl St",
+        "city": "Boulder",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Wild Woods Brewery",
+        "address": "5460 Conestoga Ct",
+        "city": "Boulder",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    },
+    {
+        "brewery": "Wynkoop Brewing Co",
+        "address": "1634 18th St",
+        "city": "Denver",
+        "lastvisited": "Not yet visited. Let's Go!",
+        "votes": 0
+    }
+]

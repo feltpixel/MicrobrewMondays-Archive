@@ -1,0 +1,64 @@
+        
+    <header class="top">
+        
+{{> header }}
+
+    </header>
+
+        <div class='container-fluid'>
+
+            <div class='row'>
+
+                <div class='col-sm-12 col-md-5 col-md-offset-1 col-xs-12 col-xs-offset-0 col-lg-4 col-lg-offset-2 leftPanel'>
+
+                    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+                        <a class="btn-floating btn-large bottom rust addBrewery">
+                          <i class="large material-icons">add</i>
+                        </a>
+                    </div>
+                   
+                    {{> breweries }}
+
+                    {{> beers }}
+
+                    {{> myReviews }}
+                    
+                </div>
+
+                <div class='col-sm-12 col-md-5 col-xs-12 col-xs-offset-0 col-lg-4 rightPanel' >
+                    <div class='infoView'>
+                        {{> breweryInfo }}
+
+                        {{> beerInfo }}
+
+                        {{> breweryForm }}
+
+                        {{> beerForm }}
+
+
+                     </div>
+                 </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        
+        <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="../public/materialize/js/materialize.min.js"></script>
+      <script type="text/javascript" src="../public/materialize/js/nouislider.min.js"></script>
+      <script type="text/javascript" src="../public/js/typeahead.js-master/dist/typeahead.jquery.min.js"></script>
+      <script type="text/javascript" src="../public/js/application.js"></script>
+      <script type="text/javascript" src="../public/jquery-bar-rating/dist/jquery.barrating.min.js"></script>
+         <script type="text/javascript">
+           $(function() {
+              $('#rating').barrating({
+                theme: 'fontawesome-stars'
+              });
+           });
+        </script>

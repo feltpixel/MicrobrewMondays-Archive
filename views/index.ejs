@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+
+  	<% include partials/head %>
+
+		<header class="top">
+			<div class='container-fluid'>
+				<div class='row'>
+					<div class='col-xs-8 col-sm-6 col-md-6 col-md-offset-1 col-lg-5'>
+						<h1 class="head">Microbrew Mondays</h1>
+						<img src="images/MicrobrewMondays.png" class="title large" alt="Microbrew Mondays"></img>
+					</div>
+					<div class="globalControls input-field col-xs-4 col-sm-4 col-sm-offset-2 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-3">
+			          	<input placeholder=" " id="search" type="text" >
+			          	<i class="material-icons search">search</i>
+			          	<a class="btn-flat btn-floating btn-small avatar waves-effect waves-light dark-blue"><i class="material-icons">person</i></a> 
+       				 	
+       				 </div>
+				</div>
+			</div>
+
+         
+        </div>
+			</div>
+			<div class='globalControlsSimple col-xs-3 col-xs-offset-0'>
+				<i class="material-icons">more_vert</i>
+				<i class="material-icons">search</i>				
+			</div>
+
+			<nav>
+			<div class='container-fluid'>
+				<div class='row'>
+					<div class='col-xs-12 col-sm-12 col-md-6 col-md-offset-1 col-lg-5 col-lg-offset-2'>
+						<ul class='nav navbar-nav'>
+							<li class='breweryNav active'>BREWERIES</li>
+							<li class='beersNav'>BEERS</li>
+							<li class='reviewsNav'>MY REVIEWS</li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</nav>
+		</header>
+
+	<div class='container-fluid'>
+
+		<div class='row'>
+
+			<div class='col-sm-12 col-md-5 col-md-offset-1 col-xs-12 col-xs-offset-0 col-lg-4 col-lg-offset-2 leftPanel'>
+
+				<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+				    <a class="btn-floating btn-large bottom rust addBrewery">
+				      <i class="large material-icons">add</i>
+				    </a>
+				</div>
+
+				<!-- start brewery list -->
+				<div class='listView breweries'>
+					    <div class='listView breweries'>
+			      <% breweries.forEach(function(brewery) { %>
+			          <div class='item' data-value=<%= brewery._id %>>  
+			            <div class='name'><%= brewery.brewery %></div>
+			            <div class='meta'><%= brewery.address %>, <%= brewery.city %></div>
+			            <i class="material-icons vote">thumb_up</i>
+			            <span class='vote meta'><%= brewery.votes %> votes</span>
+			          </div>
+			          <% }); %>
+			    </div>	
+
+				</div>
+				<!-- end brewery list -->
+
+			</div>
+
+
+			<div class='col-sm-12 col-md-5 col-xs-12 col-xs-offset-0 col-lg-4 rightPanel' >
+				<div class='infoView'>
+					
+
+					<!-- start brewery info -->
+					<section class='breweryInfo'>
+
+						<header>
+							<h3>Sanitas Brewing Co.</h3>
+							<div class='meta'>3201 Frontier Ave, Boulder</div>
+							<div class='lastVisited'>Last visited: Nov 9, 2015</div>
+							<img class='logo' src='/images/sanitas.png'>
+							<a class="btn-floating btn-small waves-effect waves-light hops-green editBrewery"><i class="material-icons">mode_edit</i></a>
+						</header>
+
+
+						<div class='card location'>
+							<h3>Location</h3>
+							<div class='map'><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3055.35803746508!2d-105.2496410482653!3d40.022784979311794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876beddee746b341%3A0x6b5fb18c3ac1bb1e!2s3201+Frontier+Ave%2C+Boulder%2C+CO+80301!5e0!3m2!1sen!2sus!4v1447908451493" width="100%" height="160" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+							<div class='meta'>3201 Frontier Ave, Boulder</div>
+						</div>
+			
+
+						<h3 class='list'>Reviews (10)</h3>
+						<a href="#" class='rate'>RATE A BEER</a>
+
+						<div class='listView beer'>
+
+							<div class='item'>	
+								<div class='name'>Ned Flanders Style Red</div>
+								<div class='meta'>Sanitas Brewing Co., Boulder</div>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<span class='rating meta'>3 reviews</span>
+							</div>
+					
+						</div>
+
+					</section>
+					<!-- end brewery info -->
+
+					<!-- start new brewery form -->
+					<section class='newBrewery form'>
+						<header class='closeable'>
+							<!-- <i class='close material-icons'>close</i> -->
+							<i class="material-icons right">more_vert</i>
+							<i class="material-icons right">search</i>
+							<h1>Where are we drinking?</h1>
+
+						</header>
+
+						<form name="newBrewery" method="post" action="/createbrewery">
+
+							<div class='card brewery'>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Brewery Name" name="breweryName" type="text" class="validate">
+							          <label for="breweryName"> </label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Street Address" name="address" type="text" class="validate">
+							          <label for="address"></label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="City" name="city" type="text" class="validate">
+							          <label for="city"></label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Last Visited" name="lastVisited" type="date" class="datepicker">
+							          <label for="lastVisited"></label>
+							        </div>
+							      </div>
+								</div>
+							
+								<input type="cancel" class="btn secondary cancel" value="Cancel">
+								<input type="submit" class="btn primary done" value="Add Brewery">
+							</form>
+						</div>
+
+					</section>
+					<!-- end new brewery form -->
+
+					<!-- start new beer form -->
+					<section class='newBeer'>
+						<header class='closeable'>
+							<!-- <i class='close material-icons'>close</i> -->
+							<i class="material-icons right">more_vert</i>
+							<i class="material-icons right">search</i>
+							<h1>Tell us about this beer...</h1>
+							
+						</header>
+
+					<form name="newBeer" method="post" action="/createbeer">
+
+						<div class='card general'><div id="the-basics">
+
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Beer Name" name="beerName" type="text" class="">
+							          <label for="beerName"> </label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Style of Beer" name="beerStyle" id="beerStyle" type="text" class="typeahead">
+							          <label for="beerStyle"></label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Brewery" name="brewery" type="text" class="">
+							          <label for="brewery"></label>
+							        </div>
+							     
+									</div>
+							      </div>
+
+		
+
+						
+							<div class='rateBeer'>Overall, I'd rate this beer:
+								<div class="br-wrapper br-theme-fontawesome-stars">
+								  <select id="rating" name="rating">
+								    <option value="1">1</option>
+								    <option value="2">2</option>
+								    <option value="3">3</option>
+								    <option value="4">4</option>
+								    <option value="5">5</option>
+								  </select>
+								</div>
+
+							</div>
+						</div>
+
+						<div class='card appearance'>
+							<h3>Appearance &amp; Aroma</h3>
+
+							<div class="group">
+
+									<div class="form-label">COLOR</div>
+									<div class='colorSelector'></div>
+								    <p class="range-field">
+								      <input type="range" name="colorRange" id="color" min="0" max="100" />
+								    </p>
+								    <span class="form-label secondary">STRAW</span>
+									<span class="form-label secondary">GOLD</span>
+									<span class="form-label secondary">AMBER</span>
+									<span class="form-label secondary">COPPER</span>
+									<span class="form-label secondary">DARK BROWN</span>
+									<span class="form-label secondary last">BLACK</span>
+								
+							
+							</div>
+							
+							<div class="group">
+								<div class="form-label">MALT AROMA</div>
+								<span class="pills pills-default">Grain</span>
+								<span class="pills pills-default">Bread</span>
+								<span class="pills pills-default">Sweet</span>
+								<span class="pills pills-default">Toast</span>
+								<span class="pills pills-default">Nut</span>
+								<span class="pills pills-default">Caramel</span>
+								<span class="pills pills-default">Toffee</span>
+								<span class="pills pills-default">Coffee</span>
+								<span class="pills pills-default">Chocolate</span>
+							</div>
+							
+							<div class="group">
+							<div class="form-label">HOPS AROMA</div>
+								<span class="pills label-default">Earth</span>
+								<span class="pills label-default">Floral</span>
+								<span class="pills label-default">Herbal</span>
+								<span class="pills label-default">Spice</span>
+								<span class="pills label-default">Resin</span>
+								<span class="pills label-default">Citrus</span>
+							</div>
+						</div>
+
+						<div class='card taste'>
+							<h3>Taste</h3>
+							<div class="group">
+								<div class="form-label">INTENSITY</div>
+								   <p class="range-field">
+								    <input type="range" name="intensity" min="0" max="100" />
+								    </p>
+									<span class="form-label secondary">FAINT</span>
+									<span class="form-label secondary last">STRONG</span>
+							</div>
+
+							<div class="group balance">
+									<div class="form-label">BALANCE</div>
+									    <p class="range-field">
+									      <input type="range" name="balance" min="0" max="100" />
+									    </p>
+									  
+									<span class="form-label secondary">SWEET</span>
+									<span class="form-label secondary last">BITTER</span>
+							</div>
+						</div>
+
+						<div class='card notes'>
+							<h3>Notes</h3>
+
+							<div class="row">
+							    <form class="col s12">
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <textarea placeholder="What do you think?" name="notes" class="materialize-textarea notes"></textarea>
+							          <label for="notes"></label>
+							        </div>
+							      </div>
+							 	 </div>
+
+						</div>
+								<input type="cancel" class="btn secondary cancel" value="Cancel">
+								<input type="submit" class="btn primary done" value="Add Review">
+							  </form>
+
+
+
+					</section>
+					<!-- end new beer form -->
+
+
+					<!-- start beer info -->
+					<section class='beerInfo'>
+
+						<header>
+							<i class='close material-icons'>close</i>
+							<h3>Pink Panther Saison</h3>
+							<div class='meta'>Twisted Pine Brewing Co., Boulder</div>
+							<div class='beerStyle'>Saison/Farmhouse Ale</div>
+							<div class='info'>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<a class="btn-floating btn-small avatar btn-flat dark-blue"><i class="material-icons">person</i></a>
+							</div>
+							<a class="btn-floating btn-small waves-effect waves-light hops-green editBeer"><i class="material-icons">mode_edit</i></a>
+						</header>
+
+
+						<div class='paging'><a href="#!"><i class="material-icons">chevron_left</i></a><span class="count">1 of 1</span><a href="#!"><i class="material-icons">chevron_right</i></a></div>  
+
+						 
+
+
+						<div class='card appearance'>
+							<h3>Appearance &amp; Aroma</h3>
+
+							<div class="group">
+
+								<form action="#">
+									<div class="form-label">COLOR</div>
+									<div class='colorSelector'></div>
+								    <p class="range-field">
+								      <input type="range" id="color" min="0" max="100" />
+								    </p>
+								    <span class="form-label secondary">STRAW</span>
+									<span class="form-label secondary">GOLD</span>
+									<span class="form-label secondary">AMBER</span>
+									<span class="form-label secondary">COPPER</span>
+									<span class="form-label secondary">DARK BROWN</span>
+									<span class="form-label secondary last">BLACK</span>
+								</form>
+							
+							</div>
+							
+							<div class="group">
+								<div class="form-label">MALT AROMA</div>
+								<span class="label label-default">Grain</span>
+								<span class="label label-active">Bread</span>
+								<span class="label label-default">Sweet</span>
+								<span class="label label-default">Toast</span>
+								<span class="label label-default">Nut</span>
+								<span class="label label-default">Caramel</span>
+								<span class="label label-default">Toffee</span>
+								<span class="label label-default">Coffee</span>
+								<span class="label label-default">Chocolate</span>
+							</div>
+							
+							<div class="group">
+							<div class="form-label">HOPS AROMA</div>
+								<span class="label label-default">Earth</span>
+								<span class="label label-default">Floral</span>
+								<span class="label label-active">Herbal</span>
+								<span class="label label-default">Spice</span>
+								<span class="label label-default">Resin</span>
+								<span class="label label-default">Citrus</span>
+							</div>
+
+						</div>
+
+						<div class='card taste'>
+							<h3>Taste</h3>
+							<div class="group">
+								<form action="#">
+									<div class="form-label">INTENSITY</div>
+								    <p class="range-field">
+								      <input type="range" id="intensity" min="0" max="100" />
+								    </p>
+									<span class="form-label secondary">FAINT</span>
+									<span class="form-label secondary last">STRONG</span>
+								</form>
+							</div>
+
+							<div class="group">
+								<form action="#">
+									<div class="form-label">BALANCE</div>
+									
+									    <p class="range-field">
+									      <input type="range" id="balance" min="0" max="100" />
+									    </p>
+									  
+									<span class="form-label secondary">SWEET</span>
+									<span class="form-label secondary last">BITTER</span>
+								</form>
+							</div>
+
+						</div>
+
+						<div class='card notes'>
+							<h3>Notes</h3>
+
+							<div class="row">
+							    <form class="col s12">
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <textarea readonly="readonly" value="I love this beer!!" name="notes" class="notes materialize-textarea">I love this beer!!</textarea>
+							          <label for="notes"></label>
+							        </div>
+							      </div>
+							    </form>
+							  </div>
+
+						</div>		
+
+					</section>
+					<!-- end beer info -->
+
+					<!-- start edit brewery form -->
+					<section class='editBrewery form'>
+						<header class='closeable'>
+							<!-- <i class='close material-icons'>close</i> -->
+							<i class="material-icons right">more_vert</i>
+							<i class="material-icons right">search</i>
+							<h1>Where are we drinking?</h1>
+
+						</header>
+
+						<form name="editBrewery" method="post" action="/createbrewery">
+
+							<div class='card brewery'>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Brewery Name" name="breweryName" type="text" value="Sanitas Brewing Co" class="validate">
+							          <label for="breweryName"> </label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Street Address" name="address" type="text" value="3201 Frontier Ave" class="validate">
+							          <label for="address"></label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="City" name="city" type="text" value="Boulder" class="validate">
+							          <label for="city"></label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Last Visited" name="lastVisited" type="date" value="November 9, 2015" class="datepicker">
+							          <label for="lastVisited"></label>
+							        </div>
+							      </div>
+								</div>
+							
+								<input type="cancel" class="btn secondary cancel" value="Cancel">
+								<input type="submit" class="btn primary done" value="Save">
+							</form>
+						</div>
+
+					</section>
+					<!-- end new brewery form -->
+
+				</div>
+			</div>
+
+<!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="/materialize/js/materialize.min.js"></script>
+      <script type="text/javascript" src="/materialize/js/nouislider.min.js"></script>
+      <script type="text/javascript" src="/js/typeahead.js-master/dist/typeahead.jquery.min.js"></script>
+      <script type="text/javascript" src="/js/application.js"></script>
+      <script type="text/javascript" src="/jquery-bar-rating/dist/jquery.barrating.min.js"></script>
+		<script type="text/javascript">
+		   $(function() {
+		      $('#rating').barrating({
+		        theme: 'fontawesome-stars'
+		      });
+		   });
+		</script>
+
+  </body>
+</html>

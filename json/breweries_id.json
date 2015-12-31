@@ -1,0 +1,220 @@
+[
+    {
+        "id": "12Degree Brewing",
+        "address": "820 Main St",
+        "city": "Louisville",
+        "logo": "/images/12degrees.png",
+        "votes": 1
+    },
+    {
+        "id": "4 Noses Brewing Co",
+        "address": "8855 W 116th Cir #4",
+        "city": "Broomfield",
+        "logo": "/images/4noses.png",
+        "votes": 2
+    },
+    {
+        "id": "Asher Brewing Co",
+        "address": "4699 Nautilus Ct S #104",
+        "city": "Boulder"
+    },
+    {
+        "id": "Avery Brewing Co",
+        "address": "4910 Nautilus Ct",
+        "city": "Boulder",
+        "lastvisited": "2015-11-09T07:00:00.000Z",
+        "votes": 5
+    },
+    {
+        "id": "Black Shirt Brewing Co",
+        "address": "3719 Walnut St",
+        "city": "Denver"
+    },
+    {
+        "id": "Big Choice Brewing",
+        "address": "7270 W 118th Pl",
+        "city": "Broomfield"
+    },
+    {
+        "id": "Bootstrap Brewing Co",
+        "address": "6778 N 79th St",
+        "city": "Niwot"
+    },
+    {
+        "id": "Boulder Beer",
+        "address": "2880 Wilderness Pl",
+        "city": "Boulder"
+    },
+    {
+        "id": "BRU handbuilt ales & eats",
+        "address": "5290 Arapahoe Ave",
+        "city": "Boulder"
+    },
+    {
+        "id": "Crooked Stave",
+        "address": "3350 Brighton Blvd",
+        "city": "Denver",
+        "lastvisited": "2015-11-16T07:00:00.000Z",
+        "votes": 3
+    },
+    {
+        "id": "Crystal Springs Brewing Co",
+        "address": "657 S Taylor Ave",
+        "city": "Louisville"
+    },
+    {
+        "id": "Echo Brewing",
+        "address": "600 Briggs St",
+        "city": "Erie"
+    },
+    {
+        "id": "FATE Brewing Company",
+        "address": "1600 38th St",
+        "city": "Boulder"
+    },
+    {
+        "id": "Finkel & Garf Brewing Co",
+        "address": "5455 Spine Rd",
+        "city": "Boulder"
+    },
+    {
+        "id": "Front Range Brewing Co",
+        "address": "400 W South Boulder Rd #1650",
+        "city": "Lafayette"
+    },
+    {
+        "id": "Gravity Brewing",
+        "address": "1150 Pine St",
+        "city": "Louisville"
+    },
+    {
+        "id": "Great Divide Brewing Co",
+        "address": "2201 Arapahoe St",
+        "city": "Denver"
+    },
+    {
+        "id": "J Wells Brewery",
+        "address": "2516 49th St #5",
+        "city": "Boulder"
+    },
+    {
+        "id": "Jagged Mountain Craft Brewery",
+        "address": "1139 20th St",
+        "city": "Denver"
+    },
+    {
+        "id": "Left Hand Brewing Co",
+        "address": "1265 Boston Ave",
+        "city": "Longmont"
+    },
+    {
+        "id": "Liquid Mechanics Brewing Co",
+        "address": "297 US-287",
+        "city": "Lafayette"
+    },
+    {
+        "id": "Mountain Sun Pub & Brewery",
+        "address": "1535 Pearl St",
+        "city": "Boulder"
+    },
+    {
+        "id": "Nighthawk Brewery",
+        "address": "2780 Industrial Ln",
+        "city": "Broomfield"
+    },
+    {
+        "id": "Odd13 Brewing",
+        "address": "301 E Simpson St",
+        "city": "Lafayette"
+    },
+    {
+        "id": "Oskar Blues Brewery ",
+        "address": "1800 Pike Rd",
+        "city": "Longmont"
+    },
+    {
+        "id": "Our Mutual Friend Brewing",
+        "address": "2810 Larimer St",
+        "city": "Denver"
+    },
+    {
+        "id": "Powder Keg Brewing Co",
+        "address": "101 2nd Ave",
+        "city": "Niwot"
+    },
+    {
+        "id": "Pumphouse Brewery",
+        "address": "540 Main St",
+        "city": "Longmont"
+    },
+    {
+        "id": "Renegade Brewing Co",
+        "address": "925 W 9th Ave",
+        "city": "Denver"
+    },
+    {
+        "id": "Sanitas Brewing Co",
+        "address": "3550 Frontier Ave",
+        "city": "Boulder"
+    },
+    {
+        "id": "Southern Sun",
+        "address": "627 S Broadway St",
+        "city": "Boulder"
+    },
+    {
+        "id": "Station 26 Brewing Co",
+        "address": "7045 E 38th Ave",
+        "city": "Denver"
+    },
+    {
+        "id": "Strange Craft Beer Co",
+        "address": "1330 Zuni St",
+        "city": "Denver"
+    },
+    {
+        "id": "The Old Mine",
+        "address": "500 Briggs St",
+        "city": "Erie"
+    },
+    {
+        "id": "The Post Brewing Co",
+        "address": "105 W Emma St",
+        "city": "Lafayette"
+    },
+    {
+        "id": "Twisted Pine Brewing Co",
+        "address": "3201 Walnut St",
+        "city": "Boulder"
+    },
+    {
+        "id": "Upslope Brewing Co",
+        "address": "1501 Lee Hill Dr",
+        "city": "Boulder"
+    },
+    {
+        "id": "Vindication Brewing Co",
+        "address": "6880 Winchester Cir",
+        "city": "Boulder"
+    },
+    {
+        "id": "Walnut Brewery",
+        "address": "1123 Walnut St",
+        "city": "Boulder"
+    },
+    {
+        "id": "West Flanders Brewing Co",
+        "address": "1125 Pearl St",
+        "city": "Boulder"
+    },
+    {
+        "id": "Wild Woods Brewery",
+        "address": "5460 Conestoga Ct",
+        "city": "Boulder"
+    },
+    {
+        "id": "Wynkoop Brewing Co",
+        "address": "1634 18th St",
+        "city": "Denver"
+    }
+]

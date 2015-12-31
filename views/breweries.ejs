@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ <% include partials/head %>
+ 
+  </head>
+  <body>
+    <h1><%= title %></h1>
+ 
+<!--     <ul>
+      <% breweries.forEach(function(brewery) { %>
+        <li><%= brewery.brewery %> <%= brewery.city %></li>
+      <% }); %>
+    </ul> -->
+
+    <div class='listView breweries'>
+      <% breweries.forEach(function(brewery) { %>
+          <div class='item'>  
+            <div class='name'><%= brewery.brewery %></div>
+            <div class='meta'><%= brewery.address %>, <%= brewery.city %></div>
+            <i class="material-icons vote">thumb_up</i>
+            <span class='vote meta'><%= brewery.votes %> votes</span>
+          </div>
+          <% }); %>
+    </div>
+ 
+  </body>
+</html>

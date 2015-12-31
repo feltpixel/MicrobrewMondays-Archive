@@ -1,0 +1,31 @@
+				<!-- start beer list -->
+				<div class='listView beers'>
+					<% beers.forEach(function(beer) { %>
+					<div class='item'>	
+						<div class='name'><%= beer.name %></div>
+						<div class='meta'><%= brewery.brewery %>, <%= brewery.city %></div>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<span class='rating meta'>3 reviews</span>
+					</div>
+					<% }); %>
+				</div>
+				<!-- end beer list -->
+
+				<!-- start my reviews list -->
+				<div class='listView myReviews'>
+					<% beers.forEach(function(beer) { %>
+					<div class='item'>	
+						<div class='name'><%= beer.name %></div>
+						<div class='meta'><%= brewery.brewery %>, <%= brewery.city %></div>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<span class='rating meta'>3 reviews</span>
+					</div>
+					<% }); %>
+				</div>
+				<!-- end my reviews list -->

@@ -1,0 +1,19 @@
+
+<div class='listView beers'>
+  list beers here
+
+
+  {{#each beers}}
+      <div class='item' data-id={{ _id }}>  
+        <div class='name'>{{ name }}</div>
+        <div class='meta'>{{ breweryId }}, {{ style }}</div>
+        <i class="material-icons rating">grade</i>
+        <i class="material-icons rating">grade</i>
+        <i class="material-icons rating">grade</i>
+        <i class="material-icons rating">grade</i>
+        <i class="material-icons rating">grade</i>
+        <span class='rating meta'>{{ reviews }} reviews</span>
+      </div>
+    {{/each}}    
+</div>
+ 
