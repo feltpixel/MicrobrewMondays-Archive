@@ -1,0 +1,2293 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "19076",
+"files": {
+	"\/css\/bootstrap-theme.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/bootstrap-theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/bootstrap-theme.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/bootstrap-theme.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/bootstrap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/bootstrap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/bootstrap.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/bootstrap.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/material-fullpalette.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/material-fullpalette.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/material-fullpalette.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/material-fullpalette.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/styles.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/beers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10868,
+		"inputAbbreviatedPath": "\/images\/beers.jpg",
+		"outputAbbreviatedPath": "\/images\/beers.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/beers2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7030,
+		"inputAbbreviatedPath": "\/images\/beers2.jpg",
+		"outputAbbreviatedPath": "\/images\/beers2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/beers3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8604,
+		"inputAbbreviatedPath": "\/images\/beers3.jpg",
+		"outputAbbreviatedPath": "\/images\/beers3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/hops.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10595,
+		"inputAbbreviatedPath": "\/images\/hops.jpg",
+		"outputAbbreviatedPath": "\/images\/hops.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/hops2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5823,
+		"inputAbbreviatedPath": "\/images\/hops2.jpg",
+		"outputAbbreviatedPath": "\/images\/hops2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/hops3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10060,
+		"inputAbbreviatedPath": "\/images\/hops3.jpg",
+		"outputAbbreviatedPath": "\/images\/hops3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/hops4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9874,
+		"inputAbbreviatedPath": "\/images\/hops4.png",
+		"outputAbbreviatedPath": "\/images\/hops4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/hops5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4549,
+		"inputAbbreviatedPath": "\/images\/hops5.jpg",
+		"outputAbbreviatedPath": "\/images\/hops5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Microbrew Mondays_files\/application.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/application.js",
+		"outputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/min\/application-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/images\/Microbrew Mondays_files\/bootstrap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/bootstrap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/Microbrew Mondays_files\/common.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/common.js",
+		"outputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/min\/common-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/images\/Microbrew Mondays_files\/embed.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/embed.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/Microbrew Mondays_files\/init_embed.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/init_embed.js",
+		"outputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/min\/init_embed-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/images\/Microbrew Mondays_files\/jquery-2.1.1.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/jquery-2.1.1.min.js",
+		"outputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/min\/jquery-2.1.1.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/images\/Microbrew Mondays_files\/materialize.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/materialize.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/Microbrew Mondays_files\/materialize.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/materialize.min.js",
+		"outputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/min\/materialize.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/images\/Microbrew Mondays_files\/MicrobrewMondays.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18705,
+		"inputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/MicrobrewMondays.png",
+		"outputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/MicrobrewMondays.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Microbrew Mondays_files\/nouislider.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/nouislider.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/Microbrew Mondays_files\/sanitas.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3160,
+		"inputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/sanitas.png",
+		"outputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/sanitas.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Microbrew Mondays_files\/stats.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/stats.js",
+		"outputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/min\/stats-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/images\/Microbrew Mondays_files\/styles.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/Microbrew Mondays_files\/util.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/util.js",
+		"outputAbbreviatedPath": "\/images\/Microbrew Mondays_files\/min\/util-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/images\/MicrobrewMondays.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/MicrobrewMondays.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/MicrobrewMondays.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18705,
+		"inputAbbreviatedPath": "\/images\/MicrobrewMondays.png",
+		"outputAbbreviatedPath": "\/images\/MicrobrewMondays.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/MicrobrewMondays@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43474,
+		"inputAbbreviatedPath": "\/images\/MicrobrewMondays@2x.png",
+		"outputAbbreviatedPath": "\/images\/MicrobrewMondays@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/P1000906.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113755,
+		"inputAbbreviatedPath": "\/images\/P1000906.jpg",
+		"outputAbbreviatedPath": "\/images\/P1000906.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/P1000908.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103895,
+		"inputAbbreviatedPath": "\/images\/P1000908.jpg",
+		"outputAbbreviatedPath": "\/images\/P1000908.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/P1000913.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 144288,
+		"inputAbbreviatedPath": "\/images\/P1000913.jpg",
+		"outputAbbreviatedPath": "\/images\/P1000913.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/P1000917.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 154876,
+		"inputAbbreviatedPath": "\/images\/P1000917.jpg",
+		"outputAbbreviatedPath": "\/images\/P1000917.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/application.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/application.js",
+		"outputAbbreviatedPath": "\/js\/min\/application-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/bootstrap.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/bootstrap.js",
+		"outputAbbreviatedPath": "\/js\/min\/bootstrap-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/bootstrap.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/bootstrap.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/bootstrap.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/application-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/application-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/application-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/npm.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/npm.js",
+		"outputAbbreviatedPath": "\/js\/min\/npm-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/logos\/13404887153_d696134ebd.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24891,
+		"inputAbbreviatedPath": "\/logos\/13404887153_d696134ebd.jpg",
+		"outputAbbreviatedPath": "\/logos\/13404887153_d696134ebd.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/logos\/272027828.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63425,
+		"inputAbbreviatedPath": "\/logos\/272027828.png",
+		"outputAbbreviatedPath": "\/logos\/272027828.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/logos\/beerinfographic2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 596071,
+		"inputAbbreviatedPath": "\/logos\/beerinfographic2.jpg",
+		"outputAbbreviatedPath": "\/logos\/beerinfographic2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/logos\/boulderbeer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26089,
+		"inputAbbreviatedPath": "\/logos\/boulderbeer.png",
+		"outputAbbreviatedPath": "\/logos\/boulderbeer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/logos\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16328,
+		"inputAbbreviatedPath": "\/logos\/favicon.png",
+		"outputAbbreviatedPath": "\/logos\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/logos\/logo-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1134,
+		"inputAbbreviatedPath": "\/logos\/logo-2x.png",
+		"outputAbbreviatedPath": "\/logos\/logo-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/logos\/Logo-Stamp-Layer1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17195,
+		"inputAbbreviatedPath": "\/logos\/Logo-Stamp-Layer1.png",
+		"outputAbbreviatedPath": "\/logos\/Logo-Stamp-Layer1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/logos\/sanitas@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10780,
+		"inputAbbreviatedPath": "\/logos\/sanitas@2x.png",
+		"outputAbbreviatedPath": "\/logos\/sanitas@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/logos\/Screen Shot 2015-11-12 at 12.13.16 PM.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26089,
+		"inputAbbreviatedPath": "\/logos\/Screen Shot 2015-11-12 at 12.13.16 PM.png",
+		"outputAbbreviatedPath": "\/logos\/Screen Shot 2015-11-12 at 12.13.16 PM.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/logos\/Screen Shot 2015-11-16 at 12.13.45 PM.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21185,
+		"inputAbbreviatedPath": "\/logos\/Screen Shot 2015-11-16 at 12.13.45 PM.png",
+		"outputAbbreviatedPath": "\/logos\/Screen Shot 2015-11-16 at 12.13.45 PM.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/logos\/Strange-Craft-logo-transp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20555,
+		"inputAbbreviatedPath": "\/logos\/Strange-Craft-logo-transp.png",
+		"outputAbbreviatedPath": "\/logos\/Strange-Craft-logo-transp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/materialize-src\/js\/animation.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/animation.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/animation-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/bin\/materialize.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/bin\/materialize.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/bin\/min\/materialize-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/bin\/materialize.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/bin\/materialize.min.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/bin\/min\/materialize.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/buttons.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/buttons.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/buttons-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/cards.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/cards.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/cards-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/character_counter.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/character_counter.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/character_counter-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/chips.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/chips.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/chips-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/collapsible.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/collapsible.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/collapsible-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/date_picker\/picker.date.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/date_picker\/picker.date.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/date_picker\/min\/picker.date-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/date_picker\/picker.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/date_picker\/picker.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/date_picker\/min\/picker-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/dropdown.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/dropdown.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/dropdown-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/forms.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/forms.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/forms-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/global.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/global.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/global-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/hammer.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/hammer.min.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/hammer.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/jquery.easing.1.3.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/jquery.easing.1.3.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/jquery.easing.1.3-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/jquery.hammer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/jquery.hammer.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/jquery.hammer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/leanModal.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/leanModal.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/leanModal-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/materialbox.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/materialbox.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/materialbox-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/parallax.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/parallax.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/parallax-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/pushpin.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/pushpin.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/pushpin-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/scrollFire.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/scrollFire.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/scrollFire-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/scrollspy.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/scrollspy.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/scrollspy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/sideNav.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/sideNav.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/sideNav-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/slider.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/slider.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/slider-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/tabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/tabs.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/tabs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/toasts.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/toasts.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/toasts-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/tooltip.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/tooltip.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/tooltip-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/transitions.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/transitions.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/transitions-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/velocity.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/velocity.min.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/velocity.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/js\/waves.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/js\/waves.js",
+		"outputAbbreviatedPath": "\/materialize-src\/js\/min\/waves-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize-src\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/materialize-src\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/materialize-src\/sass\/components\/_buttons.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_buttons.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_buttons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_cards.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_cards.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_cards.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_chips.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_chips.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_chips.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_collapsible.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_collapsible.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_collapsible.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_color.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_color.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_color.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_dropdown.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_dropdown.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_dropdown.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_form.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_form.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_form.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_global.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_global.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_global.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_grid.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_grid.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_grid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_icons-material-design.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_icons-material-design.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_icons-material-design.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_materialbox.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_materialbox.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_materialbox.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_mixins.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_mixins.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_mixins.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_modal.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_modal.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_modal.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_navbar.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_navbar.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_navbar.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_normalize.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_normalize.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_normalize.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_prefixer.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_prefixer.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_prefixer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_preloader.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_preloader.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_preloader.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_roboto.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_roboto.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_roboto.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_sideNav.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_sideNav.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_sideNav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_slider.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_slider.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_slider.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_table_of_contents.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_table_of_contents.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_table_of_contents.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_tabs.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_tabs.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_tabs.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_toast.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_toast.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_toast.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_tooltip.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_tooltip.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_tooltip.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_typography.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_typography.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_typography.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_variables.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_variables.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_variables.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/_waves.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/_waves.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/css\/_waves.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/date_picker\/_default.date.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/date_picker\/_default.date.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/components\/css\/_default.date.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/date_picker\/_default.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/date_picker\/_default.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/components\/css\/_default.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/components\/date_picker\/_default.time.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/components\/date_picker\/_default.time.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/sass\/components\/css\/_default.time.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize-src\/sass\/materialize.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize-src\/sass\/materialize.scss",
+		"outputAbbreviatedPath": "\/materialize-src\/css\/materialize.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/materialize\/css\/materialize.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize\/css\/materialize.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/materialize\/css\/materialize.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize\/css\/materialize.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/materialize\/css\/nouislider.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize\/css\/nouislider.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/materialize\/js\/materialize.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize\/js\/materialize.js",
+		"outputAbbreviatedPath": "\/materialize\/js\/min\/materialize-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize\/js\/materialize.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize\/js\/materialize.min.js",
+		"outputAbbreviatedPath": "\/materialize\/js\/min\/materialize.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize\/js\/nouislider.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize\/js\/nouislider.js",
+		"outputAbbreviatedPath": "\/materialize\/js\/min\/nouislider-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/materialize\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/materialize\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/materialize\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "wconstantine",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "Microbrew Mondays",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "brackets_yellow"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathEnabled": 1,
+	"coffeeAutoOutputPathFilenamePattern": "*.js",
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": false,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": true,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": false,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": false,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": true,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": false,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": true,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": true,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": false,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": false,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": false,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": false,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": true,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": true,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": false,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": false,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": true,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": false,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": false,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": false,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": true,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": true,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": true,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": true,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": true,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": false,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": true,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": false,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": false,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": false,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": true,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathEnabled": 1,
+	"hamlAutoOutputPathFilenamePattern": "*.html",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathEnabled": 1,
+	"jadeAutoOutputPathFilenamePattern": "*.html",
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 2,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": false,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": true,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": false,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": true,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": false,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": false,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": false,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": true,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": false,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": false,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": false,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": true,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": true,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": false,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": false,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": false,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": false,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": false,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": false,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": true,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": false,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": false,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": false,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": false,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": false,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": false,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": false,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": true,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": false,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": true,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": false,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": false,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": false,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": false,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": false,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": false,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": false,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": false,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": false,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": false,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": false,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": false,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": true,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": true,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": false,
+			"flagValue": -1
+			},
+		"node": {
+			"active": false,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": false,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": false,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": true,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": false,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": true,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": false,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": false,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": false,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": false,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": false,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": false,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": false,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": true,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": false,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": false,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": false,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": false,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": false,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": false,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": false,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": false,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": false,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": true,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": true,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": false,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": false,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": false,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": false,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": false,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": false,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": true,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": false,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": false,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": false,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": false,
+			"flagValue": -1
+			},
+		"for": {
+			"active": false,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": false,
+			"flagValue": 150
+			},
+		"node": {
+			"active": false,
+			"flagValue": -1
+			},
+		"this": {
+			"active": false,
+			"flagValue": -1
+			},
+		"white": {
+			"active": false,
+			"flagValue": -1
+			}
+		},
+	"jsonAutoOutputPathEnabled": 0,
+	"jsonAutoOutputPathFilenamePattern": "*-min.json",
+	"jsonAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathReplace1": "",
+	"jsonAutoOutputPathReplace2": "",
+	"jsonAutoOutputPathStyle": 0,
+	"jsonOrderOutput": 0,
+	"jsonOutputStyle": 1,
+	"kitAutoOutputPathEnabled": 1,
+	"kitAutoOutputPathFilenamePattern": "*.html",
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathEnabled": 1,
+	"lessAutoOutputPathFilenamePattern": "*.css",
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathFilenamePattern": "*.html",
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownCriticStyle": 0,
+	"markdownEnableFootnotes": 1,
+	"markdownEnableLabels": 1,
+	"markdownEnableSmartQuotes": 1,
+	"markdownEscapeLineBreaks": 0,
+	"markdownMaskEmailAddresses": 1,
+	"markdownOutputFormat": 0,
+	"markdownOutputStyle": 0,
+	"markdownParseMetadata": 1,
+	"markdownProcessHTML": 0,
+	"markdownRandomFootnoteNumbers": 0,
+	"markdownUseCompatibilityMode": 0,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathEnabled": 1,
+	"sassAutoOutputPathFilenamePattern": "*.css",
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 0,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 10,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 0,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
+	"slimAutoOutputPathEnabled": 1,
+	"slimAutoOutputPathFilenamePattern": "*.html",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputFormat": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathEnabled": 1,
+	"stylusAutoOutputPathFilenamePattern": "*.css",
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathEnabled": 1,
+	"typescriptAutoOutputPathFilenamePattern": "*.js",
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
+	"typescriptModuleType": 0,
+	"typescriptNoImplicitAny": 0,
+	"typescriptPreserveConstEnums": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": false,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": false,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": true,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": false,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": true,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": true,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": true,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": true,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": true,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": false,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": false,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": true,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": false,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": true,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": true,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": false,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": true,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": false,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": false,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": false,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": true,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": false,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": false,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": true,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": true,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": true,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": true,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": true,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": false,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": false,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": false,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": true,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": true,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": false,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": true,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": false,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": false,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": false,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": false,
+			"flagValue": -1
+			},
+		"width": {
+			"active": true,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}

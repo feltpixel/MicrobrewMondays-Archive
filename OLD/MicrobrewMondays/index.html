@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title>Microbrew Mondays</title>
+		<!--Import Google Icon Font-->
+      	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      	<!--Import materialize.css-->
+      	<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+		 <!-- Mobile support -->
+   		 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href='css/bootstrap.css' rel='stylesheet'>
+ 			
+ 			<link href='materialize/css/nouislider.css' rel='stylesheet'>
+ 			<link href='css/styles.css' rel='stylesheet'>
+	
+
+
+	</head>
+	<body>
+
+		<header class="top">
+			<div class='container-fluid'>
+				<div class='row'>
+					<div class='col-xs-8 col-sm-6 col-md-6 col-md-offset-1 col-lg-5'>
+						<h1 class="head">Microbrew Mondays</h1>
+						<img src="images/MicrobrewMondays.png" class="title" alt="Microbrew Mondays"></img>
+					</div>
+					<div class="globalControls input-field col-xs-4 col-sm-4 col-sm-offset-2 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-3">
+			          	<input placeholder=" " id="search" type="text" >
+			          	<i class="material-icons search">search</i>
+			          	<a class="btn-flat btn-floating btn-small avatar waves-effect waves-light dark-blue"><i class="material-icons">person</i></a> 
+       				 	
+       				 </div>
+				</div>
+			</div>
+
+         
+        </div>
+
+			</div>
+
+			<div class='globalControlsSimple col-xs-3 col-xs-offset-0'>
+				<i class="material-icons">more_vert</i>
+				<i class="material-icons">search</i>
+				
+			</div>
+
+			<nav>
+			<div class='container-fluid'>
+				<div class='row'>
+					<div class='col-xs-12 col-sm-12 col-md-6 col-md-offset-1 col-lg-5 col-lg-offset-2'>
+						<ul class='nav navbar-nav'>
+							<li class='breweryNav active'>BREWERIES</li>
+							<li class='beersNav'>BEERS</li>
+							<li class='reviewsNav'>MY REVIEWS</li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		</header>
+
+
+	
+	<div class='container-fluid'>
+
+		<div class='row'>
+			  <!-- <a class="btn-floating btn-large waves-effect waves-light bottom right red"><i class="material-icons">add</i></a> -->
+
+		<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+		    <a class="btn-floating btn-large rust addBrewery">
+		      <i class="large material-icons">add</i>
+		    </a>
+		</div>
+
+			<div class='col-sm-6 col-md-5 col-md-offset-1 col-xs-12 col-xs-offset-0 col-lg-4 col-lg-offset-2 leftPanel'>
+
+				<!-- start brewery list -->
+				<div class='listView breweries'>
+					<div class='item'>	
+						<div class='name'>12Degree Brewing</div>
+						<div class='meta'>820 Main St, Louisville</div>
+						<i class="material-icons vote active">thumb_up</i>
+						<span class='vote meta'>2 votes</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>4 Noses Brewing Co.</div>
+						<div class='meta'>8855 W 116th Cir #4, Broomfield</div>
+						<i class="material-icons vote">thumb_up</i>
+						<span class='vote meta'>0 votes</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Asher Brewing Co.</div>
+						<div class='meta'>4699 Nautilus Ct S #104, Boulder</div>
+						<i class="material-icons vote">thumb_up</i>
+						<span class='vote meta'>0 votes</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Avery Brewing Co.</div>
+						<div class='meta'>4910 Nautilus Ct, Boulder</div>
+						<i class="material-icons vote">thumb_up</i>
+						<span class='vote meta'>0 votes</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Black Shirt Brewing Co.</div>
+						<div class='meta'>43719 Walnut St, Denver</div>
+						<i class="material-icons vote active">thumb_up</i>
+						<span class='vote meta'>3 votes</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Big Choice Brewing</div>
+						<div class='meta'>7270 W 118th Pl, Broomfield</div>
+						<i class="material-icons vote notVoted">thumb_up</i>
+						<span class='vote meta'>0 votes</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Bootstrap Brewing Co.</div>
+						<div class='meta'>6778 N 79th St, Niwot</div>
+						<i class="material-icons vote notVoted">thumb_up</i>
+						<span class='vote meta'>0 votes</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Boulder Beer</div>
+						<div class='meta'>2880 Wilderness Pl, Boulder</div>
+						<i class="material-icons vote notVoted">thumb_up</i>
+						<span class='vote meta'>0 votes</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>BRU Handbuilt Ales &amp; Eats</div>
+						<div class='meta'>5290 Arapahoe Ave, Boulder</div>
+						<i class="material-icons vote notVoted">thumb_up</i>
+						<span class='vote meta'>0 votes</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Crooked Stave</div>
+						<div class='meta'>3350 Brighton Blvd, Denver</div>
+						<i class="material-icons vote">thumb_up</i>
+						<span class='vote meta'>2 votes</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Crystal Springs Brewing Co.</div>
+						<div class='meta'>657 S Taylor Ave, Louisville</div>
+						<i class="material-icons vote notVoted">thumb_up</i>
+						<span class='vote meta'>0 votes</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Echo Brewing</div>
+						<div class='meta'>600 Briggs St, Erie</div>
+						<i class="material-icons vote notVoted">thumb_up</i>
+						<span class='vote meta'>0 votes</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>FATE Brewing Co.</div>
+						<div class='meta'>1600 38th St, Boulder</div>
+						<i class="material-icons vote notVoted">thumb_up</i>
+						<span class='vote meta'>0 votes</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Finkel &amp; Garf Brewing Co.</div>
+						<div class='meta'>5455 Spine Rd, Boulder</div>
+						<i class="material-icons vote notVoted">thumb_up</i>
+						<span class='vote meta'>0 votes</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Front Range Brewing Co.</div>
+						<div class='meta'>400 W South Boulder Rd #1650, Lafayette</div>
+						<i class="material-icons vote notVoted">thumb_up</i>
+						<span class='vote meta'>0 votes</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Gravity Brewing</div>
+						<div class='meta'>1150 Pine St, Louisville</div>
+						<i class="material-icons vote notVoted">thumb_up</i>
+						<span class='vote meta'>0 votes</span>
+					</div>
+
+				</div>
+				<!-- end brewery list -->
+
+				<!-- start beer list -->
+				<div class='listView beers'>
+					<div class='item'>	
+						<div class='name'>Ned Flanders Style Red</div>
+						<div class='meta'>Sanitas Brewing Co., Boulder</div>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<span class='rating meta'>3 reviews</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Ghost Face Killah</div>
+						<div class='meta'>Twisted Pine Brewing Co., Boulder</div>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<span class='rating meta'>2 reviews</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Sanitas Black IPA</div>
+						<div class='meta'>Sanitas Brewing Co., Boulder</div>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<span class='rating meta'>4 reviews</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Sanitas Saison</div>
+						<div class='meta'>Sanitas Brewing Co., Boulder</div>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<span class='rating meta'>3 reviews</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Northstar Imperial Porter</div>
+						<div class='meta'>Twisted Pine Brewing Co., Boulder</div>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<span class='rating meta'>2 reviews</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Billies Chillies</div>
+						<div class='meta'>Twisted Pine Brewing Co., Boulder</div>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+
+						<span class='rating meta'>1 review</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Hoppy Boy</div>
+						<div class='meta'>Twisted Pine Brewing Co., Boulder</div>
+						<i class="material-icons rating">grade</i>
+
+						<span class='rating meta'>2 reviews</span>
+					</div>
+				</div>
+				<!-- end beer list -->
+
+				<!-- start my reviews list -->
+				<div class='listView myReviews'>
+					<div class='item'>	
+						<div class='name'>Ned Flanders Style Red</div>
+						<div class='meta'>Sanitas Brewing Co., Boulder</div>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<span class='rating meta'>3 reviews</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Sanitas Black IPA</div>
+						<div class='meta'>Sanitas Brewing Co., Boulder</div>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<span class='rating meta'>4 reviews</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Sanitas Saison</div>
+						<div class='meta'>Sanitas Brewing Co., Boulder</div>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<span class='rating meta'>3 reviews</span>
+					</div>
+					<div class='item'>	
+						<div class='name'>Northstar Imperial Porter</div>
+						<div class='meta'>Twisted Pine Brewing Co., Boulder</div>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<i class="material-icons rating">grade</i>
+						<span class='rating meta'>2 reviews</span>
+					</div>
+				</div>
+				<!-- end my reviews list -->
+
+			</div>
+
+			<div class='col-sm-6 col-md-5 col-xs-12 col-xs-offset-0 col-lg-4 rightPanel' >
+				<div class='infoView'>
+					<!-- start brewery info -->
+					<section class='breweryInfo'>
+
+						<header>
+							<h3>Sanitas Brewing Co.</h3>
+							<div class='meta'>3201 Frontier Ave, Boulder</div>
+							<div class='lastVisited'>Last visited: Nov 9, 2015</div>
+							<img class='logo' src='logos/sanitas.png'>
+							<a class="btn-floating btn-small waves-effect waves-light dark-blue editBrewery"><i class="material-icons">mode_edit</i></a>
+						</header>
+
+
+
+
+
+						<div class='card location'>
+							<h3>Location</h3>
+							<div class='map'><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3055.35803746508!2d-105.2496410482653!3d40.022784979311794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876beddee746b341%3A0x6b5fb18c3ac1bb1e!2s3201+Frontier+Ave%2C+Boulder%2C+CO+80301!5e0!3m2!1sen!2sus!4v1447908451493" width="100%" height="160" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+							<div class='meta'>3201 Frontier Ave, Boulder</div>
+						</div>
+			
+
+						<h3 class='list'>Reviews (10)</h3>
+						<a href="#" class='rate'>RATE A BEER</a>
+
+						<div class='listView beer'>
+
+							<div class='item'>	
+								<div class='name'>Ned Flanders Style Red</div>
+								<div class='meta'>Sanitas Brewing Co., Boulder</div>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<span class='rating meta'>3 reviews</span>
+							</div>
+							<div class='item'>	
+								<div class='name'>Sanitas Black IPA</div>
+								<div class='meta'>Sanitas Brewing Co., Boulder</div>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<span class='rating meta'>4 reviews</span>
+							</div>
+							<div class='item'>	
+								<div class='name'>Sanitas IPA</div>
+								<div class='meta'>Sanitas Brewing Co., Boulder</div>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<span class='rating meta'>1 review</span>
+							</div>
+						</div>
+
+					</section>
+					<!-- end brewery info -->
+
+					<!-- start beer info -->
+					<section class='beerInfo'>
+
+						<header>
+							<i class='close material-icons'>close</i>
+							<h3>Pink Panther Saison</h3>
+							<div class='meta'>Twisted Pine Brewing Co., Boulder</div>
+							<div class='beerStyle'>Saison/Farmhouse Ale</div>
+							<div class='info'>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<a class="btn-floating btn-small avatar btn-flat dark-blue"><i class="material-icons">person</i></a>
+							</div>
+							<a class="btn-floating btn-small waves-effect waves-light hops-green editBeer"><i class="material-icons">mode_edit</i></a>
+						</header>
+
+
+						<div class='paging'><a href="#!"><i class="material-icons">chevron_left</i></a><span class="count">1 of 1</span><a href="#!"><i class="material-icons">chevron_right</i></a></div>  
+
+						 
+
+
+						<div class='card appearance'>
+							<h3>Appearance &amp; Aroma</h3>
+
+							<div class="group">
+
+								<form action="#">
+									<div class="form-label">COLOR</div>
+									<div class='colorSelector'></div>
+								    <p class="range-field">
+								      <input type="range" id="color" min="0" max="100" />
+								    </p>
+								    <span class="form-label secondary">STRAW</span>
+									<span class="form-label secondary">GOLD</span>
+									<span class="form-label secondary">AMBER</span>
+									<span class="form-label secondary">COPPER</span>
+									<span class="form-label secondary">DARK BROWN</span>
+									<span class="form-label secondary last">BLACK</span>
+								</form>
+							
+							</div>
+							
+							<div class="group">
+								<div class="form-label">MALT AROMA</div>
+								<span class="label label-default">Grain</span>
+								<span class="label label-active">Bread</span>
+								<span class="label label-default">Sweet</span>
+								<span class="label label-default">Toast</span>
+								<span class="label label-default">Nut</span>
+								<span class="label label-default">Caramel</span>
+								<span class="label label-default">Toffee</span>
+								<span class="label label-default">Coffee</span>
+								<span class="label label-default">Chocolate</span>
+							</div>
+							
+							<div class="group">
+							<div class="form-label">HOPS AROMA</div>
+								<span class="label label-default">Earth</span>
+								<span class="label label-default">Floral</span>
+								<span class="label label-active">Herbal</span>
+								<span class="label label-default">Spice</span>
+								<span class="label label-default">Resin</span>
+								<span class="label label-default">Citrus</span>
+							</div>
+
+						</div>
+
+						<div class='card taste'>
+							<h3>Taste</h3>
+							<div class="group">
+								<form action="#">
+									<div class="form-label">INTENSITY</div>
+								    <p class="range-field">
+								      <input type="range" id="intensity" min="0" max="100" />
+								    </p>
+									<span class="form-label secondary">FAINT</span>
+									<span class="form-label secondary last">STRONG</span>
+								</form>
+							</div>
+
+							<div class="group">
+								<form action="#">
+									<div class="form-label">BALANCE</div>
+									
+									    <p class="range-field">
+									      <input type="range" id="balance" min="0" max="100" />
+									    </p>
+									  
+									<span class="form-label secondary">SWEET</span>
+									<span class="form-label secondary last">BITTER</span>
+								</form>
+							</div>
+
+						</div>
+
+						<div class='card notes'>
+							<h3>Notes</h3>
+
+							<div class="row">
+							    <form class="col s12">
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <textarea disabled placeholder="What do you think?" id="notes" class="materialize-textarea"></textarea>
+							          <label for="notes"></label>
+							        </div>
+							      </div>
+							    </form>
+							  </div>
+
+						</div>		
+
+					</section>
+					<!-- end beer info -->
+
+					<!-- start new beer form -->
+					<section class='newBeer'>
+						<header class='closeable'>
+							<i class='close material-icons'>close</i>
+							<i class="material-icons right">more_vert</i>
+							<i class="material-icons right">search</i>
+							<h1>New Beer Review</h1>
+							
+						</header>
+
+					<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+					    <a class="btn-floating btn-large light-green darken-3 done">
+					      <i class="large material-icons">done</i>
+					    </a>
+					</div>
+
+
+						<div class='card general'>
+
+							<form>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Beer Name" id="beerName" type="text" class="validate">
+							          <label for="beerName"> </label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Style of Beer" id="beerStyle" type="text" class="validate">
+							          <label for="beerStyle"></label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Brewery" id="brewery" type="text" class="validate">
+							          <label for="brewery"></label>
+							        </div>
+							      </div>
+							    </form>
+
+
+						
+							<div class='rateBeer'>Overall, I'd rate this beer:
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+
+							</div>
+						</div>
+
+						<div class='card appearance'>
+							<h3>Appearance &amp; Aroma</h3>
+
+							<div class="group">
+
+								<form action="#">
+									<div class="form-label">COLOR</div>
+									<div class='colorSelector'></div>
+								    <p class="range-field">
+								      <input type="range" id="color" min="0" max="100" />
+								    </p>
+								    <span class="form-label secondary">STRAW</span>
+									<span class="form-label secondary">GOLD</span>
+									<span class="form-label secondary">AMBER</span>
+									<span class="form-label secondary">COPPER</span>
+									<span class="form-label secondary">DARK BROWN</span>
+									<span class="form-label secondary last">BLACK</span>
+								</form>
+							
+							</div>
+							
+							<div class="group">
+								<div class="form-label">MALT AROMA</div>
+								<span class="label label-default">Grain</span>
+								<span class="label label-default">Bread</span>
+								<span class="label label-default">Sweet</span>
+								<span class="label label-default">Toast</span>
+								<span class="label label-default">Nut</span>
+								<span class="label label-default">Caramel</span>
+								<span class="label label-default">Toffee</span>
+								<span class="label label-default">Coffee</span>
+								<span class="label label-default">Chocolate</span>
+							</div>
+							
+							<div class="group">
+							<div class="form-label">HOPS AROMA</div>
+								<span class="label label-default">Earth</span>
+								<span class="label label-default">Floral</span>
+								<span class="label label-default">Herbal</span>
+								<span class="label label-default">Spice</span>
+								<span class="label label-default">Resin</span>
+								<span class="label label-default">Citrus</span>
+							</div>
+						</div>
+
+						<div class='card taste'>
+							<h3>Taste</h3>
+							<div class="group">
+								<form action="#">
+									<div class="form-label">INTENSITY</div>
+								    <p class="range-field">
+								      <input type="range" id="intensity" min="0" max="100" />
+								    </p>
+									<span class="form-label secondary">FAINT</span>
+									<span class="form-label secondary last">STRONG</span>
+								</form>
+							</div>
+
+							<div class="group">
+								<form action="#">
+									<div class="form-label">BALANCE</div>
+									
+									    <p class="range-field">
+									      <input type="range" id="balance" min="0" max="100" />
+									    </p>
+									  
+									<span class="form-label secondary">SWEET</span>
+									<span class="form-label secondary last">BITTER</span>
+								</form>
+							</div>
+
+						</div>
+
+						<div class='card notes'>
+							<h3>Notes</h3>
+
+							<div class="row">
+							    <form class="col s12">
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <textarea placeholder="What do you think?" id="notes" class="materialize-textarea"></textarea>
+							          <label for="notes"></label>
+							        </div>
+							      </div>
+							    </form>
+							  </div>
+						</div>
+
+
+
+					</section>
+					<!-- end new beer form -->
+
+					<!-- start edit beer form -->
+					<section class='editBeer'>
+						<header class='closeable'>
+							<i class='close material-icons'>close</i>
+							<i class="material-icons right">more_vert</i>
+							<i class="material-icons right">search</i>
+							<h1>Edit Beer Review</h1>
+							
+						</header>
+
+					<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+					    <a class="btn-floating btn-large hops-green done">
+					      <i class="large material-icons">done</i>
+					    </a>
+					</div>
+
+
+						<div class='card general'>
+
+							<form>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Beer Name" value="Pink Panther Saison" id="beerName" type="text" class="validate">
+							          <label for="beerName"> </label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Style of Beer" value="Saison/Farmhouse Ale" id="beerStyle" type="text" class="validate">
+							          <label for="beerStyle"></label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Brewery" value="Twisted Pine Brewing Co" id="brewery" type="text" class="validate">
+							          <label for="brewery"></label>
+							        </div>
+							      </div>
+							    </form>
+
+
+						
+							<div class='rateBeer'>Overall, I'd rate this beer:
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+								<i class="material-icons rating">grade</i>
+
+							</div>
+						</div>
+
+						<div class='card appearance'>
+							<h3>Appearance &amp; Aroma</h3>
+
+							<div class="group">
+
+								<form action="#">
+									<div class="form-label">COLOR</div>
+									<div class='colorSelector'></div>
+								    <p class="range-field">
+								      <input type="range" id="color" min="0" max="100" />
+								    </p>
+								    <span class="form-label secondary">STRAW</span>
+									<span class="form-label secondary">GOLD</span>
+									<span class="form-label secondary">AMBER</span>
+									<span class="form-label secondary">COPPER</span>
+									<span class="form-label secondary">DARK BROWN</span>
+									<span class="form-label secondary last">BLACK</span>
+								</form>
+							
+							</div>
+							
+							<div class="group">
+								<div class="form-label">MALT AROMA</div>
+								<span class="label label-default">Grain</span>
+								<span class="label label-default">Bread</span>
+								<span class="label label-default">Sweet</span>
+								<span class="label label-default">Toast</span>
+								<span class="label label-default">Nut</span>
+								<span class="label label-default">Caramel</span>
+								<span class="label label-default">Toffee</span>
+								<span class="label label-default">Coffee</span>
+								<span class="label label-default">Chocolate</span>
+							</div>
+							
+							<div class="group">
+							<div class="form-label">HOPS AROMA</div>
+								<span class="label label-default">Earth</span>
+								<span class="label label-default">Floral</span>
+								<span class="label label-default">Herbal</span>
+								<span class="label label-default">Spice</span>
+								<span class="label label-default">Resin</span>
+								<span class="label label-default">Citrus</span>
+							</div>
+
+						</div>
+
+						<div class='card taste'>
+							<h3>Taste</h3>
+
+							<div class="group">
+								<form action="#">
+									<div class="form-label">INTENSITY</div>
+								    <p class="range-field">
+								      <input type="range" id="intensity" min="0" max="100" />
+								    </p>
+									<span class="form-label secondary">FAINT</span>
+									<span class="form-label secondary last">STRONG</span>
+								</form>
+							</div>
+
+							<div class="group">
+								<form action="#">
+									<div class="form-label">BALANCE</div>
+									
+									    <p class="range-field">
+									      <input type="range" id="balance" min="0" max="100" />
+									    </p>
+									  
+									<span class="form-label secondary">SWEET</span>
+									<span class="form-label secondary last">BITTER</span>
+								</form>
+							</div>
+						</div>
+
+						<div class='card notes'>
+							<h3>Notes</h3>
+
+							<div class="row">
+							    <form class="col s12">
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <textarea placeholder="What do you think?" id="notes" class="materialize-textarea"></textarea>
+							          <label for="notes"></label>
+							        </div>
+							      </div>
+							    </form>
+							  </div>
+						</div>
+
+
+
+					</section>
+					<!-- end edit beer form -->
+
+
+					<!-- start new brewery form -->
+					<section class='newBrewery'>
+						<header class='closeable'>
+							<i class='close material-icons'>close</i>
+							<i class="material-icons right">more_vert</i>
+							<i class="material-icons right">search</i>
+							<h1>New Brewery</h1>
+
+						</header>
+
+					<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+					    <a class="btn-floating btn-large light-green darken-3 done">
+					      <i class="large material-icons">done</i>
+					    </a>
+					</div>
+
+
+						<div class='card brewery'>
+								<form>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Brewery Name" id="breweryName" type="text" class="validate">
+							          <label for="breweryName"> </label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Street Address" id="address" type="text" class="validate">
+							          <label for="address"></label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="City" id="city" type="text" class="validate">
+							          <label for="city"></label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Last Visited" id="lastVisited" type="date" class="datepicker">
+							          <label for="lastVisited"></label>
+							        </div>
+							      </div>
+							    </form>
+								
+							</div>
+							
+						</div>
+
+					</section>
+					<!-- end new brewery form -->
+
+					<!-- start edit brewery form -->
+					<section class='editBrewery'>
+						<header class='closeable'>
+							<i class='close material-icons'>close</i>
+							<i class="material-icons right">more_vert</i>
+							<i class="material-icons right">search</i>
+							<h1>Edit Brewery</h1>
+
+						</header>
+
+					<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+					    <a class="btn-floating btn-large light-green darken-3 done">
+					      <i class="large material-icons">done</i>
+					    </a>
+					</div>
+
+
+						<div class='card brewery'>
+								<form>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Brewery Name" value="Sanitas Brewing Co." id="breweryName" type="text" class="validate">
+							          <label for="breweryName"> </label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Street Address" value="3201 Frontier Ave" id="address" type="text" class="validate">
+							          <label for="address"></label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="City" value="Boulder" id="city" type="text" class="validate">
+							          <label for="city"></label>
+							        </div>
+							      </div>
+							      <div class="row">
+							        <div class="input-field col s12">
+							          <input placeholder="Last Visited" value="24 November, 2015" id="lastVisited" type="date" class="datepicker">
+							          <label for="lastVisited"></label>
+							        </div>
+							      </div>
+							    </form>
+								
+							</div>
+							
+						</div>
+
+					</section>
+					<!-- end edit brewery form -->
+				
+				</div>
+			</div>
+		</div>
+
+		</div>
+		<footer>Site designed and built by <a href="http://feltpixel.com" target="blank">felt pixel</a></footer>
+
+
+		<!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+      <script type="text/javascript" src="materialize/js/nouislider.min.js"></script>
+      <script type="text/javascript" src="js/application.js"></script>
+		
+	</body>
+
+</html>
